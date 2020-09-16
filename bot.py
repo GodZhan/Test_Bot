@@ -18,4 +18,6 @@ async def on_member_remove(member):
     await ch1.send(f'{member} leave!')
 
 @bot.command()
+async def ping(ctx): 
     await ctx.send(bot.latency) 
+bot.run('NzU1NDMzNTk0MzAxODQxNTAw.X2DOXA.-R50Yzbl2tEpL10Aiklrz5Hg-0o')
